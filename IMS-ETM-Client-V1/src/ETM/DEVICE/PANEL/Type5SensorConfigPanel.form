@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup2">
+    </Component>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,42,0,0,2,63"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="sensorScroll">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Center"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel11">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="operatePanel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="levelPanel" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="jToolBar8" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="profileLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="profileComboBox" min="-2" pref="152" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar5" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jToolBar5" alignment="0" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jToolBar8" alignment="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="profileComboBox" alignment="0" max="32767" attributes="0"/>
+                              <Component id="profileLabel" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="operatePanel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="levelPanel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="67" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="operatePanel">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Operate"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="workingTimeRB" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="alwaysOnRB" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel7" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="samplingField" min="-2" pref="50" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                  <Component id="jPanel10" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="183" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="samplingField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="alwaysOnRB" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="workingTimeRB" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                          <Component id="jPanel10" min="-2" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel7">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Sampling Rate"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="samplingField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel9">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Seconds"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="alwaysOnRB">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="buttonGroup1"/>
+                    </Property>
+                    <Property name="selected" type="boolean" value="true"/>
+                    <Property name="text" type="java.lang.String" value="Always on"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="workingTimeRB">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="buttonGroup1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Working Time"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JPanel" name="jPanel10">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                        <TitledBorder/>
+                      </Border>
+                    </Property>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="21" pref="21" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="toLabel" min="-2" pref="40" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="toHourCB" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="toMinCB" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="fromLabel" min="-2" pref="40" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="fromHourCB" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="fromMinCB" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="repeatRB" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                          <Component id="onceRB" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="sunCHB" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="monCHB" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="tueCHB" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="wedCHB" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="thuCHB" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="friCHB" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="satCHB" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="sunCHB" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="monCHB" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="tueCHB" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="wedCHB" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="thuCHB" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="friCHB" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="satCHB" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="fromLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="fromHourCB" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="fromMinCB" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="repeatRB" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="toLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="toHourCB" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="toMinCB" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="onceRB" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JCheckBox" name="friCHB">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Fri"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="fromLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="From : "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="toHourCB">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="24">
+                            <StringItem index="0" value="00"/>
+                            <StringItem index="1" value="01"/>
+                            <StringItem index="2" value="02"/>
+                            <StringItem index="3" value="03"/>
+                            <StringItem index="4" value="04"/>
+                            <StringItem index="5" value="05"/>
+                            <StringItem index="6" value="06"/>
+                            <StringItem index="7" value="07"/>
+                            <StringItem index="8" value="08"/>
+                            <StringItem index="9" value="09"/>
+                            <StringItem index="10" value="10"/>
+                            <StringItem index="11" value="11"/>
+                            <StringItem index="12" value="12"/>
+                            <StringItem index="13" value="13"/>
+                            <StringItem index="14" value="14"/>
+                            <StringItem index="15" value="15"/>
+                            <StringItem index="16" value="16"/>
+                            <StringItem index="17" value="17"/>
+                            <StringItem index="18" value="18"/>
+                            <StringItem index="19" value="19"/>
+                            <StringItem index="20" value="20"/>
+                            <StringItem index="21" value="21"/>
+                            <StringItem index="22" value="22"/>
+                            <StringItem index="23" value="23"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="tueCHB">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Tue"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="toLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="To     : "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="monCHB">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Mon"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JRadioButton" name="onceRB">
+                      <Properties>
+                        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                          <ComponentRef name="buttonGroup2"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Occur once"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JRadioButton" name="repeatRB">
+                      <Properties>
+                        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                          <ComponentRef name="buttonGroup2"/>
+                        </Property>
+                        <Property name="selected" type="boolean" value="true"/>
+                        <Property name="text" type="java.lang.String" value="Repeat"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="fromMinCB">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="60">
+                            <StringItem index="0" value="00"/>
+                            <StringItem index="1" value="01"/>
+                            <StringItem index="2" value="02"/>
+                            <StringItem index="3" value="03"/>
+                            <StringItem index="4" value="04"/>
+                            <StringItem index="5" value="05"/>
+                            <StringItem index="6" value="06"/>
+                            <StringItem index="7" value="07"/>
+                            <StringItem index="8" value="08"/>
+                            <StringItem index="9" value="09"/>
+                            <StringItem index="10" value="10"/>
+                            <StringItem index="11" value="11"/>
+                            <StringItem index="12" value="12"/>
+                            <StringItem index="13" value="13"/>
+                            <StringItem index="14" value="14"/>
+                            <StringItem index="15" value="15"/>
+                            <StringItem index="16" value="16"/>
+                            <StringItem index="17" value="17"/>
+                            <StringItem index="18" value="18"/>
+                            <StringItem index="19" value="19"/>
+                            <StringItem index="20" value="20"/>
+                            <StringItem index="21" value="21"/>
+                            <StringItem index="22" value="22"/>
+                            <StringItem index="23" value="23"/>
+                            <StringItem index="24" value="24"/>
+                            <StringItem index="25" value="25"/>
+                            <StringItem index="26" value="26"/>
+                            <StringItem index="27" value="27"/>
+                            <StringItem index="28" value="28"/>
+                            <StringItem index="29" value="29"/>
+                            <StringItem index="30" value="30"/>
+                            <StringItem index="31" value="31"/>
+                            <StringItem index="32" value="32"/>
+                            <StringItem index="33" value="33"/>
+                            <StringItem index="34" value="34"/>
+                            <StringItem index="35" value="35"/>
+                            <StringItem index="36" value="36"/>
+                            <StringItem index="37" value="37"/>
+                            <StringItem index="38" value="38"/>
+                            <StringItem index="39" value="39"/>
+                            <StringItem index="40" value="40"/>
+                            <StringItem index="41" value="41"/>
+                            <StringItem index="42" value="42"/>
+                            <StringItem index="43" value="43"/>
+                            <StringItem index="44" value="44"/>
+                            <StringItem index="45" value="45"/>
+                            <StringItem index="46" value="46"/>
+                            <StringItem index="47" value="47"/>
+                            <StringItem index="48" value="48"/>
+                            <StringItem index="49" value="49"/>
+                            <StringItem index="50" value="50"/>
+                            <StringItem index="51" value="51"/>
+                            <StringItem index="52" value="52"/>
+                            <StringItem index="53" value="53"/>
+                            <StringItem index="54" value="54"/>
+                            <StringItem index="55" value="55"/>
+                            <StringItem index="56" value="56"/>
+                            <StringItem index="57" value="57"/>
+                            <StringItem index="58" value="58"/>
+                            <StringItem index="59" value="59"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="toMinCB">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="60">
+                            <StringItem index="0" value="00"/>
+                            <StringItem index="1" value="01"/>
+                            <StringItem index="2" value="02"/>
+                            <StringItem index="3" value="03"/>
+                            <StringItem index="4" value="04"/>
+                            <StringItem index="5" value="05"/>
+                            <StringItem index="6" value="06"/>
+                            <StringItem index="7" value="07"/>
+                            <StringItem index="8" value="08"/>
+                            <StringItem index="9" value="09"/>
+                            <StringItem index="10" value="10"/>
+                            <StringItem index="11" value="11"/>
+                            <StringItem index="12" value="12"/>
+                            <StringItem index="13" value="13"/>
+                            <StringItem index="14" value="14"/>
+                            <StringItem index="15" value="15"/>
+                            <StringItem index="16" value="16"/>
+                            <StringItem index="17" value="17"/>
+                            <StringItem index="18" value="18"/>
+                            <StringItem index="19" value="19"/>
+                            <StringItem index="20" value="20"/>
+                            <StringItem index="21" value="21"/>
+                            <StringItem index="22" value="22"/>
+                            <StringItem index="23" value="23"/>
+                            <StringItem index="24" value="24"/>
+                            <StringItem index="25" value="25"/>
+                            <StringItem index="26" value="26"/>
+                            <StringItem index="27" value="27"/>
+                            <StringItem index="28" value="28"/>
+                            <StringItem index="29" value="29"/>
+                            <StringItem index="30" value="30"/>
+                            <StringItem index="31" value="31"/>
+                            <StringItem index="32" value="32"/>
+                            <StringItem index="33" value="33"/>
+                            <StringItem index="34" value="34"/>
+                            <StringItem index="35" value="35"/>
+                            <StringItem index="36" value="36"/>
+                            <StringItem index="37" value="37"/>
+                            <StringItem index="38" value="38"/>
+                            <StringItem index="39" value="39"/>
+                            <StringItem index="40" value="40"/>
+                            <StringItem index="41" value="41"/>
+                            <StringItem index="42" value="42"/>
+                            <StringItem index="43" value="43"/>
+                            <StringItem index="44" value="44"/>
+                            <StringItem index="45" value="45"/>
+                            <StringItem index="46" value="46"/>
+                            <StringItem index="47" value="47"/>
+                            <StringItem index="48" value="48"/>
+                            <StringItem index="49" value="49"/>
+                            <StringItem index="50" value="50"/>
+                            <StringItem index="51" value="51"/>
+                            <StringItem index="52" value="52"/>
+                            <StringItem index="53" value="53"/>
+                            <StringItem index="54" value="54"/>
+                            <StringItem index="55" value="55"/>
+                            <StringItem index="56" value="56"/>
+                            <StringItem index="57" value="57"/>
+                            <StringItem index="58" value="58"/>
+                            <StringItem index="59" value="59"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="thuCHB">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Thu"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="sunCHB">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Sun"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="wedCHB">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Wed"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="fromHourCB">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="24">
+                            <StringItem index="0" value="00"/>
+                            <StringItem index="1" value="01"/>
+                            <StringItem index="2" value="02"/>
+                            <StringItem index="3" value="03"/>
+                            <StringItem index="4" value="04"/>
+                            <StringItem index="5" value="05"/>
+                            <StringItem index="6" value="06"/>
+                            <StringItem index="7" value="07"/>
+                            <StringItem index="8" value="08"/>
+                            <StringItem index="9" value="09"/>
+                            <StringItem index="10" value="10"/>
+                            <StringItem index="11" value="11"/>
+                            <StringItem index="12" value="12"/>
+                            <StringItem index="13" value="13"/>
+                            <StringItem index="14" value="14"/>
+                            <StringItem index="15" value="15"/>
+                            <StringItem index="16" value="16"/>
+                            <StringItem index="17" value="17"/>
+                            <StringItem index="18" value="18"/>
+                            <StringItem index="19" value="19"/>
+                            <StringItem index="20" value="20"/>
+                            <StringItem index="21" value="21"/>
+                            <StringItem index="22" value="22"/>
+                            <StringItem index="23" value="23"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="satCHB">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Sat"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="levelPanel">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Level"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="lowerLabel" min="-2" pref="100" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="lowerField" min="-2" pref="60" max="-2" attributes="1"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="lowerTimeLabel" min="-2" pref="100" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="lowerTimeField" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="secondsLabel1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="lowerExtremeLabel" min="-2" pref="100" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="lowerExtremeField" min="-2" pref="60" max="-2" attributes="1"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="upperLabel" min="-2" pref="100" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="upperField" min="-2" pref="60" max="-2" attributes="1"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="upperTimeLabel" min="-2" pref="100" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="upperTimeField" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="secondsLabel2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="upperExtremeLabel" min="-2" pref="100" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="upperExtremeField" min="-2" pref="60" max="-2" attributes="1"/>
+                              </Group>
+                              <Component id="checkCB" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="checkCB" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lowerLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lowerField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lowerTimeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lowerTimeField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="secondsLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lowerExtremeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lowerExtremeField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="upperLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="upperField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="upperTimeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="upperTimeField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="secondsLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="upperExtremeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="upperExtremeField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="lowerLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Lower"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lowerExtremeLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Lower Extreme"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lowerTimeLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Lower Time Delay"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="secondsLabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Seconds"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="lowerField">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="4"/>
+                    <Property name="text" type="java.lang.String" value="0.000"/>
+                    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[35, 20]"/>
+                    </Property>
+                    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[35, 20]"/>
+                    </Property>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[35, 20]"/>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lowerField.setDocument(new ETM.Util.HydeJTextFieldLimit(10,ETM.Util.HydeJTextFieldLimit.MODE_FLOATING_1POINT_WITH_LIMIT));"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JTextField" name="lowerExtremeField">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="4"/>
+                    <Property name="text" type="java.lang.String" value="0.000"/>
+                    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[35, 20]"/>
+                    </Property>
+                    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[35, 20]"/>
+                    </Property>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[35, 20]"/>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lowerExtremeField.setDocument(new ETM.Util.HydeJTextFieldLimit(10,ETM.Util.HydeJTextFieldLimit.MODE_FLOATING_1POINT_WITH_LIMIT));"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JTextField" name="lowerTimeField">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="4"/>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lowerTimeField.setDocument(new ETM.Util.HydeJTextFieldLimit(10,1));"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="upperLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Upper"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="upperExtremeLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Upper Extreme"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="upperTimeLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Upper Time Delay"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="secondsLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Seconds"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="upperField">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="4"/>
+                    <Property name="text" type="java.lang.String" value="0.000"/>
+                    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[35, 20]"/>
+                    </Property>
+                    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[35, 20]"/>
+                    </Property>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[35, 20]"/>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="upperField.setDocument(new ETM.Util.HydeJTextFieldLimit(10,ETM.Util.HydeJTextFieldLimit.MODE_FLOATING_1POINT_WITH_LIMIT));"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JTextField" name="upperExtremeField">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="4"/>
+                    <Property name="text" type="java.lang.String" value="0.000"/>
+                    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[35, 20]"/>
+                    </Property>
+                    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[35, 20]"/>
+                    </Property>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[35, 20]"/>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="upperExtremeField.setDocument(new ETM.Util.HydeJTextFieldLimit(10,ETM.Util.HydeJTextFieldLimit.MODE_FLOATING_1POINT_WITH_LIMIT));"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JTextField" name="upperTimeField">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="4"/>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="lowerTimeField.setDocument(new ETM.Util.HydeJTextFieldLimit(10,1));"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="checkCB">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Enable Level Check"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JToolBar" name="jToolBar8">
+              <Properties>
+                <Property name="floatable" type="boolean" value="false"/>
+                <Property name="rollover" type="boolean" value="true"/>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JButton" name="profileSetButton">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Picz/Button16/download_16.png"/>
+                    </Property>
+                    <Property name="toolTipText" type="java.lang.String" value="Apply Profile"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                    <Property name="focusable" type="boolean" value="false"/>
+                    <Property name="horizontalTextPosition" type="int" value="0"/>
+                    <Property name="verticalTextPosition" type="int" value="3"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JToolBar" name="jToolBar5">
+              <Properties>
+                <Property name="floatable" type="boolean" value="false"/>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JButton" name="profileSaveButton">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Picz/Button16/save_16.png"/>
+                    </Property>
+                    <Property name="toolTipText" type="java.lang.String" value="Modify Selected Profile"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                    <Property name="focusable" type="boolean" value="false"/>
+                    <Property name="horizontalTextPosition" type="int" value="0"/>
+                    <Property name="verticalTextPosition" type="int" value="3"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="profileNewButton">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Picz/Button16/new_16.png"/>
+                    </Property>
+                    <Property name="toolTipText" type="java.lang.String" value="Add New Profile"/>
+                    <Property name="focusable" type="boolean" value="false"/>
+                    <Property name="horizontalTextPosition" type="int" value="0"/>
+                    <Property name="verticalTextPosition" type="int" value="3"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="profileDeleteButton">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Picz/Button16/cancel_16.png"/>
+                    </Property>
+                    <Property name="toolTipText" type="java.lang.String" value="Delete Selected Profile"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                    <Property name="focusable" type="boolean" value="false"/>
+                    <Property name="horizontalTextPosition" type="int" value="0"/>
+                    <Property name="verticalTextPosition" type="int" value="3"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="profileLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Profile"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="profileComboBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="1">
+                    <StringItem index="0" value="Select a profile..."/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
